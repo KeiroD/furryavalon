@@ -16,8 +16,18 @@ body {
 	color: #204D02;
 }
 
+header {
+	padding: 1em 0 0;
+}
+/* Link. Link?  LINK!! */
 a {
 	color: #227700;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
 }
 
 .text-align-center {
@@ -29,7 +39,7 @@ a {
 }
 
 small {
-	font-size: .5em;
+	font-size: .9em;
 }
 
 ul, ul li, ol, ol li {
@@ -56,12 +66,119 @@ header, nav, footer {
 	clear: both;
 }
 
-header, nav {
-	border-bottom: 1px #204D02 dotted;
+hr {
+	padding: 0;
+	margin: 0;
 }
-
 .logo_placeholder {
 	width: 100px;
 	height: 100px;
 	padding: 0 .5em;
+}
+
+/***
+ *Navbar dropdown lists. 
+ */
+
+/* Old CSS
+
+nav > div {
+	position: relative;
+}
+nav a+ul {
+	display: none;
+}
+
+nav ul {
+	position: absolute;
+	z-index: 5;
+}
+
+nav ul li {
+	text-indent: 0;
+}
+nav a:hover+ul, nav ul:hover {
+	display: block;
+}
+
+*/
+
+/* New CSS */
+nav {
+	padding: 1em 0;
+}
+nav div .grid_2, nav div .grid_3 {
+	text-align: center;
+}
+
+nav div .grid_2 ul {
+	width: 7.9em;
+}
+
+nav div .grid_3 ul {
+	width: 13em;
+}
+
+nav > div {
+	position: relative;
+}
+
+nav div.dropdown ul {
+	display: none;
+	background: rgba(255, 255, 255, .75);
+}
+
+nav div.dropdown:hover ul {
+	display: block;
+	position: absolute;
+	z-index: 5;
+}
+
+nav div.dropdown ul li {
+	padding: .5em;
+	text-indent: 0;
+	margin-left: 0;
+}
+
+/**
+ * 	Header Group Reset
+ */
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+/**
+ * 	Other Text CSS
+ */
+
+p {
+	margin-top: 1em;
+}
+
+/**
+ * 	Front-page Latest Art CSS
+ */
+
+article {
+	padding: .5em;
+}
+.art-show-figure, .music-show-figure {
+	width: 100px;
+	position: relative;
+	float: left;
+	
+	padding: 6.5px;
+}
+
+.art-show-single, .music-show-single {
+	width: 100px;
+	height: 100px;
+}
+
+.art-show-figure figcaption, .music-show-figure figcaption {
+	text-align: center;
+	font-size: .9em;
+	padding-top: .5em;
 }
