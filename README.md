@@ -7,4 +7,8 @@ We will be rolling out site code here. To do that, you must have your own Github
 
 Contact us at http://furryavalon.net if you have any questions or concerns.
 
+Master branch is for stable, developed code.
+
+Devel branch is for developmental code. Use at your own risk!
+
 Keiro D.
