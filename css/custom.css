@@ -1,0 +1,67 @@
+/**
+ * 	Custom.css
+ * 
+ * @author: Dragonfox Studios
+ * 
+ * @desc: Custom.css seperates non-application-specific CSS
+ * 		  from the 960 Grid System CSS and from other, more
+ * 		  specific CSS needs.
+ */
+
+/**
+ * Font And Text
+ */
+
+body {
+	color: #204D02;
+}
+
+a {
+	color: #227700;
+}
+
+.text-align-center {
+	text-align: center;
+}
+
+.text-align-right {
+	text-align: right;
+}
+
+small {
+	font-size: .5em;
+}
+
+ul, ul li, ol, ol li {
+	list-style-type: none;
+}
+
+li {
+	text-indent: 1em;
+}
+
+/* Might not validate, not giving shits.
+ * Output is supported in every current browser
+ * except IE.
+ */
+output, code {
+	font: "Lucida Console";
+}
+
+/**
+ * Layout
+ */
+
+header, nav, footer {
+	clear: both;
+}
+
+header, nav {
+	border-bottom: 1px #204D02 dotted;
+}
+
+.logo_placeholder {
+	width: 100px;
+	height: 100px;
+	padding: 0 .5em;
+}
