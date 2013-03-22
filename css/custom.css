@@ -27,7 +27,7 @@ a {
 }
 
 a:hover {
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 .text-align-center {
@@ -39,7 +39,7 @@ a:hover {
 }
 
 small {
-	font-size: .9em;
+	font-size: .85em;
 }
 
 ul, ul li, ol, ol li {
@@ -105,10 +105,11 @@ nav a:hover+ul, nav ul:hover {
 
 /* New CSS */
 nav {
-	padding: 1em 0;
+	
 }
 nav div .grid_2, nav div .grid_3 {
 	text-align: center;
+	padding: 1em 0;
 }
 
 nav div .grid_2 ul {
@@ -126,6 +127,8 @@ nav > div {
 nav div.dropdown ul {
 	display: none;
 	background: rgba(255, 255, 255, .75);
+	border: 1px #204D02 solid;
+	margin-top: 1em;
 }
 
 nav div.dropdown:hover ul {
@@ -181,4 +184,27 @@ article {
 	text-align: center;
 	font-size: .9em;
 	padding-top: .5em;
+}
+
+
+/**
+ * 	Single.html CSS
+ */
+
+.submission-single-sep {
+	border: none;
+	border-top: 1px #000 dotted;
+	padding-bottom: 1em;
+}
+
+.submission-single-article {
+	padding-top: 2em;
+}
+
+.submission-comment {
+	
+}
+
+.submission-comment-reply {
+	padding-left: 2em;
 }
