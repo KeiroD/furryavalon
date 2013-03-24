@@ -9,6 +9,10 @@ Contact us at http://furryavalon.net if you have any questions or concerns.
 
 Master branch is for stable, developed code.
 
-Devel branch is for developmental code. Use at your own risk!
+Devel branch is for developmental code. This codebase is relatively stable, but may need more testing. Use at your own risk!
+
+Development branch is for bleeding-edge code. Not to be released to the public.
+
+Design branch is for design, everything to do with the UI/UX.
 
 Keiro D.
