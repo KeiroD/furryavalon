@@ -16,3 +16,7 @@ Development branch is for bleeding-edge code. Not to be released to the public.
 Design branch is for design, everything to do with the UI/UX.
 
 Keiro D.
+
+Changelog:
+
+March 23rd, 2013 - Add references to other branches. Also added Changelog tracking to this readme.
