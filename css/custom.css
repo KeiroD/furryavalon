@@ -208,3 +208,13 @@ article {
 .submission-comment-reply {
 	padding-left: 2em;
 }
+
+/**
+ * 	Profile.html CSS
+ */
+
+.profile-placeholder-latest {
+	width: 300px;
+	height: 300px;
+	margin: 13px 13px;
+}
