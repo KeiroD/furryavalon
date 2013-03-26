@@ -218,3 +218,18 @@ article {
 	height: 300px;
 	margin: 13px 13px;
 }
+
+/**
+ * 	QWEBIRC
+ */
+
+.qwebirc {
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.qwebirc-qui .outertabbar {
+	background: #FFF !important;
+}
