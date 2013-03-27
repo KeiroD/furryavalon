@@ -77,39 +77,19 @@ hr {
 }
 
 /***
- *Navbar dropdown lists. 
+ *Navbar.
  */
 
-/* Old CSS
-
-nav > div {
-	position: relative;
-}
-nav a+ul {
-	display: none;
+nav .grid_2, nav .grid_3 {
+	height: 50px;
+	line-height: 50px;
 }
 
-nav ul {
-	position: absolute;
-	z-index: 5;
-}
-
-nav ul li {
-	text-indent: 0;
-}
-nav a:hover+ul, nav ul:hover {
-	display: block;
-}
-
-*/
-
-/* New CSS */
-nav {
-	
+nav .dropdown ul {
+	line-height: 1.5;
 }
 nav div .grid_2, nav div .grid_3 {
 	text-align: center;
-	padding: 1em 0;
 }
 
 nav div .grid_2 ul {
@@ -128,7 +108,7 @@ nav div.dropdown ul {
 	display: none;
 	background: rgba(255, 255, 255, .75);
 	border: 1px #204D02 solid;
-	margin-top: 1em;
+	margin-top: -1px;
 }
 
 nav div.dropdown:hover ul {
@@ -141,6 +121,12 @@ nav div.dropdown ul li {
 	padding: .5em;
 	text-indent: 0;
 	margin-left: 0;
+}
+
+.user-icon-navbar {
+	width: 50px;
+	height: 50px;
+	margin-top: -4px;
 }
 
 /**
@@ -233,3 +219,7 @@ article {
 .qwebirc-qui .outertabbar {
 	background: #FFF !important;
 }
+
+/**
+ * 	Other stuffs
+ */
