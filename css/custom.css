@@ -220,6 +220,16 @@ article {
 	background: #FFF !important;
 }
 
+.kiwi-irc-iframe {
+	border: none;
+	width: 960px;
+	height: 400px;
+	margin-left: -10px;
+}
+
+.kiwi-irc-iframe * {
+	background: none !important;
+}
 /**
  * 	Other stuffs
  */
