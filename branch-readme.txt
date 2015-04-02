@@ -4,8 +4,6 @@ Trunk/Master: Stable code that has been verified to run correctly and not crash.
 
 Design: Design elements that will be used for the UI/UX of FurryAvalon.
 
-Devel: This is developmental code that is relatively stable and tested. As such, use at your own risk, as we have not yet fully tested all possible scenarios.
-
 Development: Leading-edge code that're highly untested; may crash server and/or services.
 
 As for pushing code into the various branches, there's some rules to follow.
