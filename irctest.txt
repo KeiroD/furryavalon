@@ -1,3 +1,0 @@
-Testing IRC server integration.
-Test2
-Test successful. Git integration is now complete. This file will be left here for no reason than to indicate success.
