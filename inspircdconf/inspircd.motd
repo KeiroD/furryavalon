@@ -1,29 +1,34 @@
 +---------------------------------------------------------------
 | FurryAvalon IRC Network
 +---------------------------------------------------------------
-| Server Information 
-| You Are Now Using: irc.furryavalon.net
+|
+| \bServer Information\x
+|
+| You Are Now Using: wolf.furryavalon.net
 | Ports Available: 6667
 | Port For SSL Connection: 6697 & 8000
 | Server Admin: Keiro (admin@heimkoma.com) 
 | Global Operators: None.
+|
 +---------------------------------------------------------------
-| WE ARE NOT LOOKING FOR STAFF AT THIS TIME.
+| \b\c31WE ARE NOT LOOKING FOR STAFF AT THIS TIME.\x
 +---------------------------------------------------------------
-| Network Policies:
-| No Clones without permission or Flooding.
-| No Harassing Other Users.
-| No Child Pornography. Any Child Pornography detected is automatically reported to authorities.
-| No Denial of Service Attacks. No War Bots.
+|
+| See /rules for our network policies.
+|
 +---------------------------------------------------------------
-| PLEASE RESPECT OTHERS SO OTHERS CAN RESPECT YOU IN RETURN!
+| \b\c31PLEASE RESPECT OTHERS SO OTHERS CAN RESPECT YOU IN RETURN!\x
 +---------------------------------------------------------------
+|
 | Official Channels:
+|
 | /join #FurryAvalon — FurryAvalon Network Channel
 | /join #Help — Help channel for all things related to IRC.
 | /join #FurtoFur — Conventions and stuff, oh my!
+|
 +---------------------------------------------------------------
 | Technical Help:
+|
 | CHANSERV - /msg chanserv help
 | NICKSERV - /msg nickserv help
 | MEMOSERV - /msg memoserv help
@@ -31,8 +36,9 @@
 | BOTSERV - /msg botserv help
 | GAMESERV - /msg gameserv help
 | HOSTSERV - /msg hostserv help
-| HELPSERV - /msg helpserv help - This is our official helpdesk.
+|
 | Aliases:
+|
 | CHANSERV - /cs help 
 | NICKSERV - /ns help
 | MEMOSERV - /ms help
@@ -40,27 +46,38 @@
 | BOTSERV - /bs help
 | GAMESERV - /games help
 | HOSTSERV - /hs help
-| HELPSERV - /halp help
+|
 +---------------------------------------------------------------
-| ROLEPLAYING COMMANDS AND THEIR USAGE
+| \b\c32ROLEPLAYING COMMANDS AND THEIR USAGE\x
 +---------------------------------------------------------------
-| NPC - /npc channel username :text 
-| NPCA - /npca channel username :text
-| Scene - /scene channel :text
+|
+| NPC - /npc channel username :text e.g.
+| /npc #FurryAvalon Derpy :Hi there, I'm NPC1!
+|
+| NPCA - /npca channel username :text e.g.
+| /npca #FurryAvalon Derpy :*waves* Hi there, I'm NPC1!
+|
+| Scene - /scene channel :text e.g.
+| /scene #FurryAvalonn :You see a beautiful glade surrounding you
+| and you can catch hints of cherry blossoms floating in the air...
+|
 +---------------------------------------------------------------
-| LEGAL NOTICE TO USERS OF THIS NETWORK
+| \b\c31LEGAL NOTICE TO USERS OF THIS NETWORK\x
 +---------------------------------------------------------------
 | You can give any personal information such as:
-| your name, phone number, home address, etc. but we are NOT
+| your name, phone number, home address, etc. but we are \bNOT\x
 | responsible for that. TL;DR: You spill that information online
 | and someone makes use of it, it's entirely your own fault.
 |
 | For updates and information please visit http://furryavalon.net
 |
 | Please keep in mind that real time chat is an unmoderated medium
-| and we are NOT responsible for the content while you're online.
-| If you do not understand the rules and policies of this server,
-| please /quit at this time.
+| and we are \bNOT\x responsible for the content while you're online.
+| If you do not understand the rules and policies of this network,
+| please join #FurryAvalon and ask about them.
+|
+| If you disagree with the rules and policies of this network, please
+| /quit at this time.
 |
 | We reserve the right to deny access to this server, this network,
 | and/or services at any time, for any or no reason as we deem necessary.
