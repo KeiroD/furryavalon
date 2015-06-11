@@ -66,6 +66,17 @@ header, nav, footer {
 	clear: both;
 }
 
+/* Footer stuff for CI.
+*/
+p.footer {
+                text-align: center;
+                font-size: 11px;
+                border-top: 1px solid #D0D0D0;
+                line-height: 32px;
+                padding: 0 10px 0 10px;
+                margin: 20px 0 0 0;
+        }
+
 hr {
 	padding: 0;
 	margin: 0;
