@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>FurryAvalon | Home</title>
+	<title>FurryAvalon | Central System Registry</title>
 	<link rel="stylesheet" type="text/css" href="./css/reset.css" />
 	<link rel="stylesheet" type="text/css" href="./css/text.css" />
 	<link rel="stylesheet" type="text/css" href="./css/960.css" />
@@ -50,16 +50,30 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<div class="grid_2 empty">&nbsp;</div>
 			<div class="grid_12 mainbar">
 				<article class="submission-single-article">
-					<h5>Welcome to FurryAvalon!</h5><br>
-					<h6>What is FurryAvalon Up to Now?</h6
+					<h5>Welcome to FurryAvalon's Central System Registry!</h5><br>
+					<h6>What is the Central System Registry?</h6>
 					<small>Created by Keiro on June 10th, 2015</small>
-                                        <p>We are rebuilding FurryAvalon from the ground-up, code-wise with <a href="http://codeigniter.com">CodeIgniter</a>. If you
-					wish to check out our code, please see <a href="http://github.com/KeiroD/furryavalon">FurryAvalon's Github</a>.</p>
-					<p>FurryAvalon v1 will not be written by us. We've hired <a href="http://modulesbakery.com">ModulesBakery</a> to do the v1 CodeIgniter code for us. From there, we will maintain our code and eventually migrate to v2 based on CodeIgniter.</p>
-					<h5>Update on FurryAvalon</h5>
-					<small>Created by Keiro on March 30th, 2014</small>
-					<p>It's been a while since we posted an update, but it was long over-due. Our website's design has been rendered down to the most basic and simplest form of our website.<br><br>Why, do you ask?<br><br>Good question. It's for two reasons -- first and foremost, the lack of developers. I myself am a Systems Administrator. I am not a back-end developer, nor am I a front-end developer. I maintain systems. That is my thing, ergo I have not had much luck in finding someone willing to work with myself and with a friend, Karros.<br><br> Secondly, however, we are only two persons and we need more help in enabling the functionality that we want to provide. We have plans. Oh yes, lots of plans for FurryAvalon. We need your help in bringing that plan to fruition. You can see what we want to do at <a href="https://trello.com/b/Af8WvtkP/furryavalon">Trello</a>. If you know anyone that can help us with bringing our vision to life, we would like to talk to them!</p>
-					<p>That said, I'd like to say on behalf of myself and Karros, creator of Dragonfox Studios, a warm thank you for coming to check out our website and what we have currently available.</p>
+                                        <p>Welcome to the Central Systems Registry of FA-NOC (FurryAvalon Network Operations Center) where you'll find all the systems registered at the facility in which FurryAvalon's Network Operations Center's main network infrastructure and services are operated from.</p>
+					<span class="field-title"><h5>Hostnames on the local Network:</h5></span>
+					<p>
+<span class="field-data">-Central Plexus - Router that controls the main network infrastructure. (cplexus.heimkoma.com)<br>
+-Kaiya - Avatar of the Heimkoma Services and FurryAvalon Network. (kaiya.heimkoma.com)<br>
+-Time - Time server for the general public. - (time.heimkoma.com and time.furryavalon.net but points at <br>cplexus.heimkoma.com)<br>
+-Deer - FurryAvalon's second IRC server. (deer.yoto-oh.furryavalon.net)<br>
+-Spark - IM system much like Yahoo. (spark.heimkoma.com)<br>
+-FTP - FTP system, fairly self-explanatory. (ftp.heimkoma.com)<br>
+-Trimatrix07 - Main network for Heimkoma Services/FurryAvalon Network, legacy hostname. (trimatrix07.heimkoma.com points at cplexus.heimkoma.com)</span>
+<span class="field-title">Hostnames at remote FurryAvalon Network.:</span>
+<span class="field-data"><br>
+-IRC - Main IRC server. (irc.furryavalon.net, hosted by <a href="http://vultr.com">Vultr</a>.)<br>
+-FurryAvalon - Main Website. (furryavalon.net, also hosted by <a href="http://vultr.com">Vultr</a>.)
+</span>
+<span class="field-title">Subdomains delegated to Remote Users:</span>
+<span class="field-data"><br>None.</span>
+<span class="field-title">Legal:</span>
+<span class="field-data"><br>All subdomains and domains are the property of FurryAvalon. Abuse found on any services attached to any
+domains and subdomains is subject to legal proceedings. All users are expected to follow the policy of the Network.
+</div>
 				</article>
 			</div>
 		</div>
